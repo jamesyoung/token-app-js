@@ -51,7 +51,7 @@ function onPayment(session) {
 // STATES
 
 function welcome(session) {
-  sendMessage(session, `Hello Token!`)
+  sendMessage(session, `Hello user!`)
 }
 
 function pong(session) {
